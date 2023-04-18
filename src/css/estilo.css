@@ -16,6 +16,128 @@ html {
   background-image: url("../imagens/imagem_de_fundo.jpg");
 }
 
+aside {
+  display: inline;
+  position: fixed;
+  bottom: 0;
+  padding: 1px;
+  top: auto;
+  right: 0%;
+
+}
+
+
+.botoes_gaveta {
+  display: inline-flex;
+  font-size: 20px;
+  width: 100vw;
+  height: 5vh;
+  margin-left: 3px;
+
+
+
+}
+
+.botoes_gaveta_1 {
+  border-radius: 12px;
+  background-color: rgba(43, 189, 205, 0.437);
+  width: 100vw;
+  height: 5vh;
+  margin-left: 3px;
+
+
+}
+
+.botoes_gaveta_2 {
+  border-radius: 12px;
+  background-color: rgba(43, 189, 205, 0.437);
+  width: 100vw;
+  height: 5vh;
+  margin-left: 3px;
+
+}
+
+.botoes_gaveta_3 {
+  border-radius: 12px;
+  background-color: rgba(43, 189, 205, 0.437);
+  width: 100vw;
+  height: 5vh;
+  margin-left: 3px;
+
+}
+
+.botoes_gaveta_4 {
+  border-radius: 12px;
+  background-color: rgba(43, 189, 205, 0.437);
+  width: 100vw;
+  height: 5vh;
+  margin-left: 3px;
+
+}
+
+.botoes_gaveta_5 {
+  border-radius: 12px;
+  background-color: rgba(43, 189, 205, 0.437);
+  width: 100vw;
+  height: 5vh;
+  margin-left: 3px;
+
+}
+
+.botoes_gaveta :hover {
+  cursor: pointer;
+  background-color: white;
+  color: aqua;
+  transition: 0.5s;
+}
+
 nav {
+  display: inline-flex;
+  float: right;
+
+}
+
+
+
+.registrar {
+  position: absolute;
+  left: 1%;
+  cursor: pointer;
+}
+
+
+input {
+  color: black;
+  margin-left: 10px;
+  margin-left: 10px;
+  border-radius: 12px;
+  background-color: rgba(154, 226, 251, 0.544);
+  outline: 0;
+
+}
+
+.registrar {
+  color: rgb(183, 243, 237);
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgba(90, 106, 107, 0.633);
+  font-size: 16px
+}
+
+.entrar {
+  color: rgb(183, 243, 237);
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgba(90, 106, 107, 0.633);
+  cursor: pointer;
+
+}
+
+.botoes_cabecalho :hover {
+  cursor: pointer;
+  background-color: white;
+  color: aqua;
+  transition: 0.5s;
 
 }
