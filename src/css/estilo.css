@@ -6,14 +6,19 @@ html {
   max-width: 1900px;
 }
 
+body {
+  background-image: url('../imagens/celestia\ imagem\ de\ fundo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+
+}
 
 .bg {
   min-height: 100vh;
   width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../imagens/imagem_de_fundo.jpg");
+
 }
 
 aside {
@@ -34,8 +39,6 @@ aside {
   height: 5vh;
   margin-left: 3px;
 
-
-
 }
 
 .botoes_gaveta_1 {
@@ -44,43 +47,19 @@ aside {
   width: 100vw;
   height: 5vh;
   margin-left: 3px;
-
-
-}
-
-.botoes_gaveta_2 {
-  border-radius: 12px;
-  background-color: rgba(43, 189, 205, 0.437);
-  width: 100vw;
-  height: 5vh;
-  margin-left: 3px;
+  font-size: 12px;
+  border: none;
 
 }
 
-.botoes_gaveta_3 {
+a {
+  color: inherit;
   border-radius: 12px;
-  background-color: rgba(43, 189, 205, 0.437);
+  /* background-color: rgba(43, 189, 205, 0.437); */
   width: 100vw;
   height: 5vh;
   margin-left: 3px;
-
-}
-
-.botoes_gaveta_4 {
-  border-radius: 12px;
-  background-color: rgba(43, 189, 205, 0.437);
-  width: 100vw;
-  height: 5vh;
-  margin-left: 3px;
-
-}
-
-.botoes_gaveta_5 {
-  border-radius: 12px;
-  background-color: rgba(43, 189, 205, 0.437);
-  width: 100vw;
-  height: 5vh;
-  margin-left: 3px;
+  font-size: 14px;
 
 }
 
@@ -89,6 +68,8 @@ aside {
   background-color: white;
   color: aqua;
   transition: 0.5s;
+  border: none;
+
 }
 
 nav {
@@ -97,21 +78,18 @@ nav {
 
 }
 
-
-
 .registrar {
   position: absolute;
   left: 1%;
   cursor: pointer;
 }
 
-
 input {
-  color: black;
+  color: rgb(18, 50, 129);
   margin-left: 10px;
   margin-left: 10px;
-  border-radius: 12px;
-  background-color: rgba(154, 226, 251, 0.544);
+  border-radius: 10px;
+  background-color: rgb(214, 222, 224);
   outline: 0;
 
 }
@@ -136,8 +114,39 @@ input {
 
 .botoes_cabecalho :hover {
   cursor: pointer;
+  /* background-color: rgb(240, 237, 237); */
+  color: rgb(119, 105, 215);
+  transition: 0.5s;
+  outline: 0;
+
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  padding: 10px 20px;
+  width: 50vh;
+  border-radius: 12px;
+  background-color: rgba(43, 189, 205, 0.437);
+  color: rgb(183, 243, 237)F;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  display: inline;
+  position: fixed;
+  bottom: 0;
+  top: auto;
+  left: 37%;
+
+}
+
+label:hover {
+  cursor: pointer;
   background-color: white;
   color: aqua;
   transition: 0.5s;
+  outline: 0;
 
 }
